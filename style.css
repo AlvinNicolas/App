@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.navbar 
+{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid {
+    margin-top: 10px;
+}   
+
+.navbar .mid a 
+{
+    color: black;
+    margin: 12px;
+}
+
+.banner 
+{
+    border: 1px solid red;
+    height: 570px;
+    background-image: url(./images/bg-img.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-banner{
+
+    padding: 40px;
+    margin-top: 210px;
+}
+
+.intro-banner h1 {
+    color: white;
+}
+
+.intro-banner h5 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.button-banner button 
+{
+    background-color: black; /* Warna latar belakang hitam */
+    color: white;
+    padding: 20px 30px;
+    border: none; 
+    cursor: pointer; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.conten {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Menyebarkan kotak secara horizontal */
+}
+
+.card {
+    width: 30%; /* Lebar masing-masing kartu */ 
+    padding: 20px;
+    text-align: center; /* Menengahkan teks dan gambar */
+}
+
+.card img {
+    max-width: 100%; /* Gambar akan menyesuaikan lebar kartu */
+    height: auto; /* Tetap menjaga rasio aspek gambar */
+}
+
+.popular-products
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.popular-products button {
+    background-color: black; /* Warna latar belakang hitam */
+    color: white;
+    padding: 10px;
+    border: none; 
+    cursor: pointer; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px;
+    border-radius: 3px;
+  
+}
+
+  .card-container {
+    display: flex;
+    justify-content: space-between; /* Mengatur ruang antara kartu */
+    margin: 10px;
+}
+
+/* Gaya CSS untuk kartu */
+.card-popular {
+    width: 360px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 10px;
+    /* Text rata kiri */
+    text-align: left;
+}
+
+.product-image {
+    width: 100%;
+    /* Tinggi gambar yang diperpanjang */
+    max-height: 300px;
+}
